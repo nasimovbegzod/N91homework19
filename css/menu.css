@@ -36,7 +36,11 @@ nav .navbar__menus {
   justify-content: space-between;
   flex: 1;
 }
-nav .navbar__menus .menu-link, nav .navbar__menus .navbar__menus__right a, nav .navbar__menus__right .navbar__menus a, nav .navbar__menus .navbar__menus__left a, nav .navbar__menus__left .navbar__menus a {
+nav .navbar__menus .menu-link,
+nav .navbar__menus .navbar__menus__right a,
+nav .navbar__menus__right .navbar__menus a,
+nav .navbar__menus .navbar__menus__left a,
+nav .navbar__menus__left .navbar__menus a {
   display: inline-block;
   font-weight: 500;
   font-size: 16px;
@@ -83,7 +87,11 @@ nav .navbar .hamburger {
     background-color: green;
     transition: 0.5s;
   }
-  nav .navbar__menus .menu-link-res, nav .navbar__menus .navbar__menus__right a, nav .navbar__menus__right .navbar__menus a, nav .navbar__menus .navbar__menus__left a, nav .navbar__menus__left .navbar__menus a {
+  nav .navbar__menus .menu-link-res,
+  nav .navbar__menus .navbar__menus__right a,
+  nav .navbar__menus__right .navbar__menus a,
+  nav .navbar__menus .navbar__menus__left a,
+  nav .navbar__menus__left .navbar__menus a {
     font-size: 40px;
     padding: 30px 0;
   }
@@ -104,7 +112,7 @@ nav .navbar .hamburger {
     fill: red;
   }
   nav .navbar__close,
-nav .navbar .hamburger {
+  nav .navbar .hamburger {
     display: block;
     background-color: transparent;
   }
@@ -113,4 +121,130 @@ nav .navbar .hamburger {
   padding: 0 15px;
   margin: 0 auto;
   max-width: 1440px;
-}/*# sourceMappingURL=menu.css.map */
+}
+
+/*---- Menu ----*/
+li {
+  list-style-type: none;
+}
+.menu {
+  padding-top: 160px;
+  height: 4000px;
+  background: #19161b;
+}
+.menu .paragrphy {
+  display: flex;
+  justify-content: space-between;
+}
+.menu .paragrphy__left_txt {
+  width: 50%;
+}
+.menu .paragrphy__left_txt h5 {
+  padding-bottom: 24px;
+  padding-right: 16px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffb577;
+}
+.menu .paragrphy__left_txt h2 {
+  padding-bottom: 144px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+}
+.menu .paragrphy__right_txt {
+  margin-right: 150px;
+  width: 30%;
+}
+.menu .paragrphy__right_txt p {
+  margin-top: 65px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #b8b8b8;
+}
+.menu .kefe_foods_menu {
+  width: 40%;
+}
+.menu .menu_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .menu_item .menu_li {
+  list-style-type: none;
+}
+.menu .menu_item .menu_li a {
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.menu_foods {
+  width: 100%;
+  margin-bottom: 150px;
+}
+.foods_item {
+  padding-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.foods_li {
+  padding-right: 32px;
+  padding-bottom: 32px;
+}
+.menu_narx {
+  margin-top: -5px;
+  background: #1f1d21;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu_narx p {
+  padding-left: 32px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 0.87;
+}
+.menu_narx span {
+  padding-right: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.87;
+}
+.kafe_about {
+  display: flex;
+}
+.info {
+  width: 40%;
+  height: 532px;
+  background: #1f1d21;
+}
+.working__hour {
+  padding: 64px 64px 2px;
+}
+.working__hour h3 {
+  padding-bottom: 6px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.working__hour p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #b8b8b8;
+}
+
+/*# sourceMappingURL=menu.css.map */
