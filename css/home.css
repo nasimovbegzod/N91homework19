@@ -189,4 +189,135 @@ nav .navbar .hamburger {
   .cafe__1 .cafe__sec1 .cafe__left h1 {
     font-size: 30px;
   }
+}
+
+.cafe__2 {
+  background-color: #19161B;
+}
+.cafe__2 .cafe__sec2 {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.cafe__2 .cafe__sec2 .cafe__about__left {
+  width: 50%;
+}
+.cafe__2 .cafe__sec2 .cafe__about__left h5 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFB577;
+  padding-bottom: 26px;
+}
+.cafe__2 .cafe__sec2 .cafe__about__left h1 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+  padding-bottom: 32px;
+}
+.cafe__2 .cafe__sec2 .cafe__about__left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  color: #B8B8B8;
+  padding-bottom: 40px;
+}
+.cafe__2 .cafe__sec2 .cafe__about__left .cafe__about__numbers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cafe__2 .cafe__sec2 .cafe__about__left .cafe__about__numbers .numbers1 {
+  display: flex;
+}
+.cafe__2 .cafe__sec2 .cafe__about__left .cafe__about__numbers .numbers1 p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #B8B8B8;
+  padding-right: 80px;
+}
+.cafe__2 .cafe__sec2 .cafe__about__left .cafe__about__numbers .numbers1 span {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #C4E4EA;
+}
+.cafe__2 .cafe__sec2 .cafe__about__left .cafe__about__numbers .numbers2 button {
+  background: #FFB577;
+  padding: 12px 26px;
+}
+.cafe__2 .cafe__sec2 .cafe__about__left .cafe__about__numbers .numbers2 button a {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #2E2D33;
+}
+.cafe__2 .cafe__sec2 .cafe__about__right {
+  display: flex;
+  padding-left: 200px;
+}
+.cafe__2 .cafe__sec2 .cafe__about__right .right__img1 {
+  margin-right: 65px;
+  padding-top: 100px;
+}
+.cafe__2 .cafe__sec2 .cafe__about__right .right__img2 {
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 1265px) {
+  .cafe__2 .cafe__sec2 {
+    flex-direction: column;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__left {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__right {
+    width: 100%;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__right .right__img1 {
+    padding-top: 0px;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__right .right__img2 {
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .cafe__2 .cafe__sec2 .cafe__about__right {
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__right .right__img1 {
+    width: 50%;
+    margin-right: 30px;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__right .right__img2 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 555px) {
+  .cafe__2 .cafe__sec2 .cafe__about__left h1 {
+    font-size: 30px;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__left .cafe__about__numbers .numbers1 {
+    margin-left: 50px;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__left .cafe__about__numbers .numbers1 p {
+    margin-left: -60px;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__right .right__img1 {
+    width: 100%;
+    margin-right: -30px;
+    padding-bottom: 50px;
+  }
+  .cafe__2 .cafe__sec2 .cafe__about__right .right__img2 {
+    width: 100%;
+  }
 }/*# sourceMappingURL=home.css.map */
