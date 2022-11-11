@@ -12,6 +12,12 @@ button {
   border: none;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1440px;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -102,4 +108,9 @@ nav .navbar .hamburger {
     display: block;
     background-color: transparent;
   }
+}
+.conatiner {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1440px;
 }/*# sourceMappingURL=our story.css.map */

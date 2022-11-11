@@ -1,1 +1,113 @@
 @import "../main.scss";
+
+.cafe__1 {
+  padding-top: 180px;
+  background: #19161B;
+
+  .cafe__sec1 {
+    display: flex;
+    justify-content: space-between;
+
+    .cafe__left {
+      width: 50%;
+      margin-top: 90px;
+
+      h1 {
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 56px;
+        color: #ffffff;
+        padding-bottom: 16px;
+
+      }
+
+      p {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        color: #B8B8B8;
+        padding-bottom: 32px;
+      }
+
+      button {
+        background: #FFB577;
+        padding: 12px 24px;
+        margin-bottom: 40px;
+
+        a {
+
+          font-family: 'Poppins';
+          font-weight: 500;
+          font-size: 16px;
+          color: #2E2D33;
+
+        }
+      }
+
+      h4 {
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+      }
+    }
+
+    .right__right {
+      width: 50%;
+    }
+  }
+
+
+  @media screen and (max-width: 1100px) {
+    .cafe__right {
+      img {
+        width: 100%;
+        margin-top: 80px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .cafe__sec1 {
+      flex-direction: column;
+
+      .cafe__left {
+        width: 100%;
+        text-align: center;
+        margin-top: -0px;
+
+      }
+    }
+  }
+
+
+  @media screen and (max-width: 580px) {
+    .cafe__sec1 {
+      .cafe__left {
+        h1 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 10px;
+        }
+      }
+
+    }
+
+  }
+
+  @media screen and (max-width: 420px) {
+    .cafe__sec1 {
+      .cafe__left {
+        h1 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// section2-----

@@ -12,6 +12,12 @@ button {
   border: none;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1440px;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -101,5 +107,86 @@ nav .navbar .hamburger {
 nav .navbar .hamburger {
     display: block;
     background-color: transparent;
+  }
+}
+.conatiner {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.cafe__1 {
+  padding-top: 180px;
+  background: #19161B;
+}
+.cafe__1 .cafe__sec1 {
+  display: flex;
+  justify-content: space-between;
+}
+.cafe__1 .cafe__sec1 .cafe__left {
+  width: 50%;
+  margin-top: 90px;
+}
+.cafe__1 .cafe__sec1 .cafe__left h1 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+.cafe__1 .cafe__sec1 .cafe__left p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #B8B8B8;
+  padding-bottom: 32px;
+}
+.cafe__1 .cafe__sec1 .cafe__left button {
+  background: #FFB577;
+  padding: 12px 24px;
+  margin-bottom: 40px;
+}
+.cafe__1 .cafe__sec1 .cafe__left button a {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #2E2D33;
+}
+.cafe__1 .cafe__sec1 .cafe__left h4 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.cafe__1 .cafe__sec1 .right__right {
+  width: 50%;
+}
+@media screen and (max-width: 1100px) {
+  .cafe__1 .cafe__right img {
+    width: 100%;
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .cafe__1 .cafe__sec1 {
+    flex-direction: column;
+  }
+  .cafe__1 .cafe__sec1 .cafe__left {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .cafe__1 .cafe__sec1 .cafe__left h1 {
+    font-size: 40px;
+  }
+  .cafe__1 .cafe__sec1 .cafe__left p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .cafe__1 .cafe__sec1 .cafe__left h1 {
+    font-size: 30px;
   }
 }/*# sourceMappingURL=home.css.map */
