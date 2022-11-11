@@ -129,7 +129,7 @@ li {
 }
 .menu {
   padding-top: 160px;
-  height: 4000px;
+  height: 3000px;
   background: #19161b;
 }
 .menu .paragrphy {
@@ -166,17 +166,18 @@ li {
   color: #b8b8b8;
 }
 .menu .kefe_foods_menu {
-  width: 40%;
+  /*width: 40%;*/
 }
 .menu .menu_item {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 .menu .menu_item .menu_li {
   list-style-type: none;
 }
 .menu .menu_item .menu_li a {
+  padding-right: 50px;
   margin-bottom: 64px;
   font-weight: 700;
   font-size: 20px;
@@ -246,5 +247,51 @@ li {
   line-height: 28px;
   color: #b8b8b8;
 }
+@media screen and (max-width: 900px) {
+  .menu {
+    height: 100%;
+  }
+  .paragrphy {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .paragrphy__left_txt {
+    text-align: center;
+  }
+  .paragrphy__right_txt {
+    margin-top: -200px;
+    margin-left: 110px;
+    text-align: center;
+  }
+  .menu_item {
+    margin-left: 80px;
+  }
+  .menu_li {
+    padding-top: 30px;
+    font-size: 15px;
+  }
+  .foods_item {
+    display: flex;
+    flex-direction: column;
+  }
+  .foods_li img {
+    width: 120%;
+  }
+  .menu_narx {
+    width: 120%;
+  }
+  .kafe_about {
+    width: 170%;
+    display: block;
+  }
+  .info {
+    margin-left: 180px;
+  }
+  .kefe_map {
+    margin-left: 50px;
+  }
+}
+  
 
 /*# sourceMappingURL=menu.css.map */
