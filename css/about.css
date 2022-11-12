@@ -124,7 +124,7 @@ nav .navbar .hamburger {
   padding-bottom: 120px;
 }
 .cafe__1 .cafe__sec1 .cafe__about__left {
-  width: 50%;
+  display: flex;
 }
 .cafe__1 .cafe__sec1 .cafe__about__left h5 {
   font-family: "Playfair Display";

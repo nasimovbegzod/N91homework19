@@ -10,7 +10,7 @@
     padding-bottom: 120px;
 
     .cafe__about__left {
-      width: 50%;
+      display: flex;
 
       h5 {
         font-family: 'Playfair Display';
@@ -60,22 +60,6 @@
             color: #C4E4EA;
           }
         }
-
-        // .numbers2 {
-        //   button {
-
-        //     background: #FFB577;
-        //     padding: 12px 26px;
-
-        //     a {
-        //       font-family: 'Poppins';
-        //       font-weight: 500;
-        //       font-size: 16px;
-        //       color: #2E2D33;
-        //     }
-
-        //   }
-        // }
 
       }
 
