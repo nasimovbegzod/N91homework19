@@ -1,1 +1,62 @@
 @import "../main.scss";
+
+/*---- Menu ----*/
+
+.menu {
+  padding-top: 160px;
+  height: 2000px;
+  background: #19161b;
+  .paragrphy {
+    display: flex;
+    justify-content: space-between;
+    &__left_txt {
+      width: 50%;
+      & h5 {
+        padding-bottom: 24px;
+        padding-right: 16px;
+        display: inline-block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffb577;
+      }
+      & h2 {
+        padding-bottom: 144px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 68px;
+        color: #ffffff;
+      }
+    }
+    &__right_txt {
+      margin-right: 150px;
+      width: 30%;
+      & p {
+        margin-top: 65px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #b8b8b8;
+      }
+    }
+  }
+  .kefe_foods_menu {
+    width: 40%;
+  }
+  & .menu_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & .menu_li {
+      list-style-type: none;
+     
+      & a {
+        margin-bottom: 64px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+        opacity: 0.6;
+      }
+    }
+  }
+}

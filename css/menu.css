@@ -25,6 +25,7 @@ nav {
   padding: 40px 0;
   background: #19161b;
   transition: 0.5s;
+  z-index: 1;
 }
 nav .navbar {
   display: flex;
@@ -80,7 +81,7 @@ nav .navbar .hamburger {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: rgb(70, 67, 67);
     transition: 0.5s;
   }
   nav .navbar__menus .menu-link-res, nav .navbar__menus .navbar__menus__right a, nav .navbar__menus__right .navbar__menus a, nav .navbar__menus .navbar__menus__left a, nav .navbar__menus__left .navbar__menus a {
@@ -113,4 +114,63 @@ nav .navbar .hamburger {
   padding: 0 15px;
   margin: 0 auto;
   max-width: 1440px;
+}
+
+/*---- Menu ----*/
+.menu {
+  padding-top: 160px;
+  height: 2000px;
+  background: #19161b;
+}
+.menu .paragrphy {
+  display: flex;
+  justify-content: space-between;
+}
+.menu .paragrphy__left_txt {
+  width: 50%;
+}
+.menu .paragrphy__left_txt h5 {
+  padding-bottom: 24px;
+  padding-right: 16px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffb577;
+}
+.menu .paragrphy__left_txt h2 {
+  padding-bottom: 144px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+}
+.menu .paragrphy__right_txt {
+  margin-right: 150px;
+  width: 30%;
+}
+.menu .paragrphy__right_txt p {
+  margin-top: 65px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #b8b8b8;
+}
+.menu .kefe_foods_menu {
+  width: 40%;
+}
+.menu .menu_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .menu_item .menu_li {
+  list-style-type: none;
+}
+.menu .menu_item .menu_li a {
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 0.6;
 }/*# sourceMappingURL=menu.css.map */

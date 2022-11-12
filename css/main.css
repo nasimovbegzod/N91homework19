@@ -25,6 +25,7 @@ nav {
   padding: 40px 0;
   background: #19161b;
   transition: 0.5s;
+  z-index: 1;
 }
 nav .navbar {
   display: flex;
@@ -80,7 +81,7 @@ nav .navbar .hamburger {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: rgb(70, 67, 67);
     transition: 0.5s;
   }
   nav .navbar__menus .menu-link-res, nav .navbar__menus .navbar__menus__right a, nav .navbar__menus__right .navbar__menus a, nav .navbar__menus .navbar__menus__left a, nav .navbar__menus__left .navbar__menus a {
