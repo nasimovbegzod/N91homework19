@@ -580,11 +580,26 @@ nav .navbar .hamburger {
   color: #2E2D33;
 }
 @media screen and (max-width: 1270px) {
-  .cafe-4 .menu {
-    width: 50%;
-    margin-left: 20px;
-  }
   .cafe-4 .menu img {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .menu {
+    width: 100%;
+  }
+  .cotalik__top h1 {
+    margin-left: 180px;
+    text-align: center;
+    width: 100%;
+  }
+  .cotalik__top p {
+    display: none;
+  }
+}
+@media screen and (max-width: 880px) and (max-width: 560px) {
+  .cotalik__top h1 {
+    margin-left: 130px;
   }
 }/*# sourceMappingURL=home.css.map */
