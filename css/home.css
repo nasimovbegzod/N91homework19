@@ -320,4 +320,271 @@ nav .navbar .hamburger {
   .cafe__2 .cafe__sec2 .cafe__about__right .right__img2 {
     width: 100%;
   }
+}
+
+.cafe-3 {
+  background-color: #19161B;
+  padding-bottom: 100px;
+}
+.cafe-3 button {
+  background: #FFB577;
+  padding: 12px 30px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2E2D33;
+}
+.cafe-3 .cafe__top {
+  display: flex;
+}
+.cafe-3 .cafe__top p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #B8B8B8;
+  float: right;
+  width: 50%;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+.cafe-3 .cafe__top__left {
+  width: 50%;
+  padding-bottom: 60px;
+}
+.cafe-3 .cafe__top__left h5 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFB577;
+  padding-bottom: 24px;
+}
+.cafe-3 .cafe__top__left h1 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+.cafe-3 .cafe__bottom {
+  width: 1280px;
+  height: 600px;
+  right: 160px;
+  top: 2003px;
+  display: flex;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.16);
+}
+.cafe-3 .cafe__bottom .table__1 {
+  margin-left: 150px;
+}
+.cafe-3 .cafe__bottom .table__1 img {
+  padding-top: 100px;
+}
+.cafe-3 .cafe__bottom .table__2 {
+  margin-left: 120px;
+}
+.cafe-3 .cafe__bottom .table__2 img {
+  padding-top: 100px;
+}
+.cafe-3 .cafe__bottom .table__3 {
+  margin-left: 120px;
+}
+.cafe-3 .cafe__bottom .table__3 img {
+  padding-top: 100px;
+}
+.cafe-3 .cafe__bottom h1 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.cafe-3 .cafe__bottom p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #B8B8B8;
+}
+@media screen and (max-width: 1290px) {
+  .cafe-3 .cafe__bottom {
+    width: 1180px;
+    height: 600px;
+    right: 160px;
+    top: 2003px;
+  }
+  .cafe-3 .cafe__bottom .table__1 {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 1215px) {
+  .cafe-3 .cafe__bottom {
+    width: 800px;
+  }
+  .cafe-3 .cafe__top {
+    flex-direction: column;
+  }
+  .cafe-3 .cafe__top h5 {
+    text-align: center;
+    float: right;
+  }
+  .cafe-3 .cafe__top h1 {
+    width: 100%;
+    text-align: center;
+    margin-left: 200px;
+  }
+  .cafe-3 .cafe__top p {
+    width: 100%;
+    text-align: center;
+    margin-left: -110px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 835px) {
+  .cafe-3 .cafe__bottom {
+    width: 600px;
+  }
+  .cafe-3 .cafe__bottom .table__1 {
+    margin-left: 30px;
+  }
+  .cafe-3 .cafe__bottom .table__2 {
+    margin-left: 30px;
+  }
+  .cafe-3 .cafe__bottom .table__3 {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .cafe-3 .cafe__top h1 {
+    margin-left: 160px;
+  }
+}
+@media screen and (max-width: 635px) {
+  .cafe-3 .cafe__sec3 .cafe__bottom {
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom .table__1 {
+    display: flex;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom .table__1 .cafe__table {
+    margin-left: 20px;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom .table__2 {
+    display: flex;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom .table__2 .cafe__table {
+    margin-left: 20px;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom .table__3 {
+    display: flex;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom .table__3 .cafe__table {
+    margin-left: 20px;
+  }
+  .cafe-3 .cafe__sec3 .cafe__top h1 {
+    margin-left: 135px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .cafe-3 .cafe__sec3 .cafe__top h1 {
+    margin-left: 100px;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom {
+    height: 900px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .cafe-3 .cafe__sec3 .cafe__top h1 {
+    font-size: 35px;
+  }
+  .cafe-3 .cafe__sec3 .cafe__top p {
+    font-size: 12px;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom {
+    height: 1500px;
+    width: 300px;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom .table__1 {
+    flex-direction: column;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom .table__2 {
+    flex-direction: column;
+  }
+  .cafe-3 .cafe__sec3 .cafe__bottom .table__3 {
+    flex-direction: column;
+  }
+}
+
+.cafe-4 {
+  background-color: #19161B;
+  padding-bottom: 120px;
+  text-align: center;
+}
+.cafe-4 .cotalik__top {
+  display: flex;
+  text-align: left;
+}
+.cafe-4 .cotalik__top p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #B8B8B8;
+  float: right;
+  width: 50%;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+.cafe-4 .cotalik__top__left {
+  width: 50%;
+  padding-bottom: 60px;
+}
+.cafe-4 .cotalik__top__left h5 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFB577;
+  padding-bottom: 24px;
+}
+.cafe-4 .cotalik__top__left h1 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+.cafe-4 .cotalik__bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cafe-4 .cotalik__bottom .menu {
+  width: 33, 3333333;
+  margin: 0 auto;
+  background-color: #1f1d21;
+  margin-bottom: 40px;
+}
+.cafe-4 .cotalik__bottom .menu span {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  color: #ffffff;
+}
+.cafe-4 button {
+  background-color: #FFB577;
+  padding: 12px 30px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #2E2D33;
+}
+@media screen and (max-width: 1270px) {
+  .cafe-4 .menu {
+    width: 50%;
+    margin-left: 20px;
+  }
+  .cafe-4 .menu img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=home.css.map */
