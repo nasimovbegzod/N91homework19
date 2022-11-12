@@ -25,6 +25,7 @@ nav {
   padding: 40px 0;
   background: #19161b;
   transition: 0.5s;
+  z-index: 1;
 }
 nav .navbar {
   display: flex;
@@ -36,11 +37,7 @@ nav .navbar__menus {
   justify-content: space-between;
   flex: 1;
 }
-nav .navbar__menus .menu-link,
-nav .navbar__menus .navbar__menus__right a,
-nav .navbar__menus__right .navbar__menus a,
-nav .navbar__menus .navbar__menus__left a,
-nav .navbar__menus__left .navbar__menus a {
+nav .navbar__menus .menu-link, nav .navbar__menus .navbar__menus__right a, nav .navbar__menus__right .navbar__menus a, nav .navbar__menus .navbar__menus__left a, nav .navbar__menus__left .navbar__menus a {
   display: inline-block;
   font-weight: 500;
   font-size: 16px;
@@ -87,11 +84,7 @@ nav .navbar .hamburger {
     background-color: green;
     transition: 0.5s;
   }
-  nav .navbar__menus .menu-link-res,
-  nav .navbar__menus .navbar__menus__right a,
-  nav .navbar__menus__right .navbar__menus a,
-  nav .navbar__menus .navbar__menus__left a,
-  nav .navbar__menus__left .navbar__menus a {
+  nav .navbar__menus .menu-link-res, nav .navbar__menus .navbar__menus__right a, nav .navbar__menus__right .navbar__menus a, nav .navbar__menus .navbar__menus__left a, nav .navbar__menus__left .navbar__menus a {
     font-size: 40px;
     padding: 30px 0;
   }
@@ -112,7 +105,7 @@ nav .navbar .hamburger {
     fill: red;
   }
   nav .navbar__close,
-  nav .navbar .hamburger {
+nav .navbar .hamburger {
     display: block;
     background-color: transparent;
   }
@@ -124,12 +117,9 @@ nav .navbar .hamburger {
 }
 
 /*---- Menu ----*/
-li {
-  list-style-type: none;
-}
 .menu {
   padding-top: 160px;
-  height: 3000px;
+  height: 2000px;
   background: #19161b;
 }
 .menu .paragrphy {
@@ -166,132 +156,21 @@ li {
   color: #b8b8b8;
 }
 .menu .kefe_foods_menu {
-  /*width: 40%;*/
+  width: 40%;
 }
 .menu .menu_item {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 .menu .menu_item .menu_li {
   list-style-type: none;
 }
 .menu .menu_item .menu_li a {
-  padding-right: 50px;
   margin-bottom: 64px;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
   opacity: 0.6;
-}
-.menu_foods {
-  width: 100%;
-  margin-bottom: 150px;
-}
-.foods_item {
-  padding-top: 64px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-.foods_li {
-  padding-right: 32px;
-  padding-bottom: 32px;
-}
-.menu_narx {
-  margin-top: -5px;
-  background: #1f1d21;
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.menu_narx p {
-  padding-left: 32px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ffffff;
-  opacity: 0.87;
-}
-.menu_narx span {
-  padding-right: 32px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 32px;
-  color: #ffffff;
-  opacity: 0.87;
-}
-.kafe_about {
-  display: flex;
-}
-.info {
-  width: 40%;
-  height: 532px;
-  background: #1f1d21;
-}
-.working__hour {
-  padding: 64px 64px 2px;
-}
-.working__hour h3 {
-  padding-bottom: 6px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ffffff;
-}
-.working__hour p {
-  font-size: 16px;
-  line-height: 28px;
-  color: #b8b8b8;
-}
-@media screen and (max-width: 900px) {
-  .menu {
-    height: 100%;
-  }
-  .paragrphy {
-    padding: 10px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .paragrphy__left_txt {
-    text-align: center;
-  }
-  .paragrphy__right_txt {
-    margin-top: -200px;
-    margin-left: 110px;
-    text-align: center;
-  }
-  .menu_item {
-    margin-left: 80px;
-  }
-  .menu_li {
-    padding-top: 30px;
-    font-size: 15px;
-  }
-  .foods_item {
-    display: flex;
-    flex-direction: column;
-  }
-  .foods_li img {
-    width: 120%;
-  }
-  .menu_narx {
-    width: 120%;
-  }
-  .kafe_about {
-    width: 170%;
-    display: block;
-  }
-  .info {
-    margin-left: 180px;
-  }
-  .kefe_map {
-    margin-left: 50px;
-  }
-}
-  
-
-/*# sourceMappingURL=menu.css.map */
+}/*# sourceMappingURL=menu.css.map */
