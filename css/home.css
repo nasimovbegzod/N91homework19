@@ -602,4 +602,39 @@ nav .navbar .hamburger {
   .cotalik__top h1 {
     margin-left: 130px;
   }
+}
+.cafe-5 {
+  background-color: #1F1D21;
+}
+.cafe-5 .sec-5 {
+  display: flex;
+}
+.cafe-5 .sec-5 .sec5__about {
+  padding-top: 80px;
+  margin-right: 20px;
+}
+.cafe-5 .sec-5 .sec5__about h3 {
+  padding-top: 45px;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  font-size: 32px;
+  color: #FFFFFF;
+  padding-bottom: 72px;
+}
+.cafe-5 .sec-5 .sec5__about span {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+.cafe-5 .sec-5 .sec5__about span p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 1260px) {
+  .cafe-5 .sec-5 {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=home.css.map */
