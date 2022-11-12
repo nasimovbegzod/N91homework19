@@ -113,4 +113,137 @@ nav .navbar .hamburger {
   padding: 0 15px;
   margin: 0 auto;
   max-width: 1440px;
+}
+
+* {
+  list-style: none;
+}
+
+body {
+  background-color: #19161B;
+}
+
+.content__left {
+  max-width: 50%;
+  background: #19161B;
+}
+.content__left h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin-top: 124px;
+  color: #FFFFFF;
+}
+.content__left .inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content__left .messege {
+  width: 623px;
+  margin-top: 40px;
+  height: 160px;
+}
+.content__left .email {
+  margin-left: 29px;
+}
+.content__left p {
+  /* Paragraph */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 24px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+input {
+  width: 297px;
+  height: 56px;
+  background-color: #19161B;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  width: 213px;
+  height: 64px;
+  margin-top: 52px;
+  color: white;
+  background: #27252D;
+}
+
+.content__right {
+  max-width: 50%;
+  display: flex;
+  z-index: -999999999;
+}
+
+.foto__one {
+  position: relative;
+  bottom: -70px;
+  margin-right: 64px;
+}
+
+.middle__list {
+  display: flex;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+.left__content {
+  background-color: #1F1D21;
+  padding-left: 80px;
+  padding-top: 80px;
+  padding-right: 60px;
+  display: block;
+}
+
+.map__list {
+  display: flex;
+  margin-top: 200px;
+}
+
+.list > h5 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.list > li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #B8B8B8;
+}
+
+.list {
+  margin-bottom: 32px;
+}
+
+.map__list {
+  display: flex;
+  justify-content: center;
+}
+
+.right__content {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }/*# sourceMappingURL=contact.css.map */
